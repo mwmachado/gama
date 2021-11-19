@@ -9,24 +9,23 @@ Revisão Markdown
 Sumário
 -------
 
-1. [Título](https://github.com/mwmachado/gama#t%C3%ADtulo)
-1. [Formatação](https://github.com/mwmachado/gama#formata%C3%A7%C3%A3o)
-1. [Quebra de Linha](https://github.com/mwmachado/gama#quebra-de-linha)
+1. [Título](#t%C3%ADtulo)
+1. [Formatação](#formata%C3%A7%C3%A3o)
 1. [Quebra de Linha](#quebra-de-linha)
-1. [Citação](https://github.com/mwmachado/gama#cita%C3%A7%C3%A3o)
-1. [Código](https://github.com/mwmachado/gama#c%C3%B3digo)
-1. [Links](https://github.com/mwmachado/gama#links)
-1. [Links Relativos](https://github.com/mwmachado/gama#links-relativos)
-1. [Imagem](https://github.com/mwmachado/gama#imagem)
-1. [Listas](https://github.com/mwmachado/gama#listas)
-   1. [Ordenadas](https://github.com/mwmachado/gama#ordenadas-123)
-   1. [Não-Ordenadas](https://github.com/mwmachado/gama#n%C3%A3o-ordenadas----)
-   1. [Aninhadas](https://github.com/mwmachado/gama#aninhadas)
-   1. [Tarefas](https://github.com/mwmachado/gama#tarefas)
-1. [Emoji](https://github.com/mwmachado/gama#emoji)
-1. [Tabelas](https://github.com/mwmachado/gama#tabelas)
-1. [Código HTML](https://github.com/mwmachado/gama#c%C3%B3digo-html)
-1. [Referência](https://github.com/mwmachado/gama#refer%C3%AAncia)
+1. [Citação](#cita%C3%A7%C3%A3o)
+1. [Código](#c%C3%B3digo)
+1. [Links](#links)
+1. [Links Relativos](#links-relativos)
+1. [Imagem](#imagem)
+1. [Listas](#listas)
+   1. [Ordenadas](#ordenadas-123)
+   1. [Não-Ordenadas](#n%C3%A3o-ordenadas----)
+   1. [Aninhadas](#aninhadas)
+   1. [Tarefas](#tarefas)
+1. [Emoji](#emoji)
+1. [Tabelas](#tabelas)
+1. [Código HTML](#c%C3%B3digo-html)
+1. [Referência](#refer%C3%AAncia)
 
 
 -------
@@ -119,6 +118,22 @@ Links Relativos
 
 `![ovelha](ovelha.svg)`  
 ![ovelha](ovelha.svg)
+
+**Link absoluto:**  
+`[Quebra de Linha](https://github.com/mwmachado/gama#quebra-de-linha)`  
+[Quebra de Linha](https://github.com/mwmachado/gama#quebra-de-linha) <!-- link absoluto-->
+
+**Link relativo:**  
+`[Quebra de Linha](#quebra-de-linha)`  
+[Quebra de Linha](#quebra-de-linha) <!-- link relativo-->
+
+**Link absoluto:**  
+`[script python](https://github.com/mwmachado/gama/blob/master/hello.py)`  
+[script python](https://github.com/mwmachado/gama/blob/master/hello.py)  
+
+**Link relativo:**  
+`[script python](hello.py)`  
+[script python](hello.py)  
 
 ---------------
 
